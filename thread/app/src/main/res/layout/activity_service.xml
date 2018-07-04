@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mstartforeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startforeground"
+        />
+
+    <Button
+        android:id="@+id/mstopforeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stopforeground"
+        />
+
+    <Button
+        android:id="@+id/mstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startservice"
+        />
+
+    <Button
+        android:id="@+id/mstop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stopservice"
+        />
+
+    <Button
+        android:id="@+id/mbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bindservice"
+        />
+
+    <Button
+        android:id="@+id/munbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unbindservice"
+        />
+
+    <Button
+        android:id="@+id/mgetdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getdata"
+        />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--正规开发的规范写法是把自定义的属性放入attrs文件中-->
+    <!-- 自定义的属性-->
+    <declare-styleable name="Header">
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleText" format="string"/>
+    </declare-styleable>
+
+    <!--title内容、title内容颜色、title内容字体大小-->
+    <declare-styleable name="CustomView">
+        <attr name="shapeColor" format="color" />
+        <attr name="displayShapeName" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PanelView">
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="android:text"/>
+        <attr name="tikeCount" format="integer"/>
+        <attr name="pointerColor" format="color"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Intent的putExtra传递"/>
+
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Intent的Bundle传递"/>
+
+    <Button
+        android:id="@+id/btn03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Activity销毁时传递数据"/>
+
+    <Button
+        android:id="@+id/btn04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="使用序列化对象Seriazable传递数据"/>
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到拨号界面"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="页面跳转到百度"/>
+
+</LinearLayout>

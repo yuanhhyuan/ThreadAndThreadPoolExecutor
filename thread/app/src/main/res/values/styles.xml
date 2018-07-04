@@ -1,0 +1,15 @@
+<resources>
+    <!--正规开发的规范写法是把风格和主题放入styles文件中  Theme.AppCompat.Light.DarkActionBar-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorPrimary">#2e8abb</item> <!--浅蓝色-->
+        <item name="colorPrimaryDark">#3A5FCD</item> <!--深蓝色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAllCaps">false</item>
+        <!-- 取消安卓显示自动大写 -->
+    </style>
+
+</resources>

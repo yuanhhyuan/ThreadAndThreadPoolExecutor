@@ -1,0 +1,149 @@
+{
+    "android_gradle_plugin_version": "2.3.3",
+    "apk_path": "F:\\huang\\test\\Test\\app\\build\\outputs\\apk\\app-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "F:\\huang\\test\\Test\\app\\build\\freeline",
+    "build_directory": "F:\\huang\\test\\Test\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "C:\\Users\\qqq\\AppData\\Local\\Android\\Sdk\\build-tools\\26.0.1",
+    "build_tools_version": "26.0.1",
+    "check_sources_md5": [
+        
+    ],
+    "compile_sdk_directory": "C:\\Users\\qqq\\AppData\\Local\\Android\\Sdk\\platforms\\android-26",
+    "compile_sdk_version": "android-26",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.zxcn.test",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "F:\\huang\\test\\Test",
+    "freeline_gradle_plugin_version": "0.8.8",
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "java_home": "C:\\java\\jdk",
+    "launcher": "com.MainActivity",
+    "main_assets_directory": [
+        "F:\\huang\\test\\Test\\app\\src\\debug\\assets",
+        "F:\\huang\\test\\Test\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "F:\\huang\\test\\Test\\app\\src\\debug\\jniLibs",
+        "F:\\huang\\test\\Test\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "F:\\huang\\test\\Test\\app\\src\\debug\\jni",
+        "F:\\huang\\test\\Test\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "F:\\huang\\test\\Test\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "F:\\huang\\test\\Test\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "F:\\huang\\test\\Test\\app\\src\\debug\\res",
+        "F:\\huang\\test\\Test\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "F:\\huang\\test\\Test\\app\\src\\debug\\java",
+        "F:\\huang\\test\\Test\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            "mylib"
+        ],
+        "mylib": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "F:\\huang\\test\\Test\\app"
+        },
+        {
+            "name": "mylib",
+            "path": "F:\\huang\\test\\Test\\mylib"
+        }
+    ],
+    "package": "com.zxcn.test",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "F:\\huang\\test\\Test\\app\\src\\debug\\assets",
+                "F:\\huang\\test\\Test\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "F:\\huang\\test\\Test\\app\\src\\debug\\jniLibs",
+                "F:\\huang\\test\\Test\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "F:\\huang\\test\\Test\\app\\src\\debug\\jni",
+                "F:\\huang\\test\\Test\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "F:\\huang\\test\\Test\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "F:\\huang\\test\\Test\\app\\src\\debug\\res",
+                "F:\\huang\\test\\Test\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "F:\\huang\\test\\Test\\app\\src\\debug\\java",
+                "F:\\huang\\test\\Test\\app\\src\\main\\java"
+            ]
+        },
+        "mylib": {
+            "main_assets_directory": [
+                "F:\\huang\\test\\Test\\mylib\\src\\release\\assets",
+                "F:\\huang\\test\\Test\\mylib\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "F:\\huang\\test\\Test\\mylib\\src\\release\\jniLibs",
+                "F:\\huang\\test\\Test\\mylib\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "F:\\huang\\test\\Test\\mylib\\src\\release\\jni",
+                "F:\\huang\\test\\Test\\mylib\\src\\main\\jni"
+            ],
+            "main_manifest_path": "F:\\huang\\test\\Test\\mylib\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "F:\\huang\\test\\Test\\mylib\\src\\release\\res",
+                "F:\\huang\\test\\Test\\mylib\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "F:\\huang\\test\\Test\\mylib\\src\\release\\java",
+                "F:\\huang\\test\\Test\\mylib\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "F:\\huang\\test\\Test",
+    "sdk_directory": "C:\\Users\\qqq\\AppData\\Local\\Android\\Sdk",
+    "use_jdk8": true,
+    "use_system_gradle": false
+}

@@ -1,0 +1,19 @@
+
+--------------------
+HandlerActivity
+1. UI线程新起线程执行耗时操作
+2. UI线程通过handler通知UI线程更新UI
+
+
+--------------------
+SDK开发经典回调结构：
+1. class HandlerThreadTest
+用HandlerThread封装好的类，做耗时操作。（实质上会起新线程）
+
+2.interface IHandlerThreadCallback
+把HandlerThread运行情况通过callback方式返回给主线程
+
+3.class HandlerThreadActivity
+重写callback接口
+UI线程的handler （MyHandler myHandler;） 读取接口返回信息，并进行显示
+

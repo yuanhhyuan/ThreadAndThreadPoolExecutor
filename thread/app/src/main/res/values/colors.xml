@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--正规开发的规范写法是把颜色放入colors文件中-->
+<resources>
+    <color name="colorAccent">#FF4081</color>
+</resources>

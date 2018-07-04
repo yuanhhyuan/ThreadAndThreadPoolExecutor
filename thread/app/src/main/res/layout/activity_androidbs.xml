@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/spedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SP输入："
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/filewrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="file输入："
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/fileread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fileread"
+        />
+
+    <EditText
+        android:id="@+id/cachewrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cache输入："
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/cacheread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cacheread"
+        />
+
+</LinearLayout>
